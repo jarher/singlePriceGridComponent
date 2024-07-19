@@ -1,14 +1,56 @@
+:root {
+  --Cyan: hsl(179, 62%, 43%);
+  --Bright-Yellow: hsl(71, 73%, 54%);
+  --Light-Gray: hsl(204, 43%, 93%);
+  --Grayish-Blue: hsl(218, 22%, 67%);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 16px;
+}
 body {
+  background-color: var(--Light-Gray);
 }
 main {
+  display: flex;
+  flex-flow: row wrap;
 }
 .card {
 }
+.card:nth-of-type(1) {
+  background-color: white;
+}
+.card:nth-of-type(2),
+.card:nth-of-type(3) {
+  background-color: var(--Cyan);
+}
 .card-title {
+  color: var(--Cyan);
 }
 .card-subtitle {
+  color: var(--Bright-Yellow);
 }
 .card-text {
+  color: var(--Grayish-Blue);
+}
+.card:nth-of-type(2) .card-title,
+.card:nth-of-type(3) .card-title {
+  color: var(--Light-Gray);
+}
+.card:nth-of-type(2) .card-subtitle,
+.card:nth-of-type(3) .card-subtitle,
+.card:nth-of-type(2) .card-text,
+.card:nth-of-type(3) .card-text {
+  color: var(--Light-Gray);
+}
+.card-subtitle span {
+  color: white;
 }
 .card-button {
+  background-color: var(--Bright-Yellow);
+  color: var(--Light-Gray);
+  border: none;
 }
