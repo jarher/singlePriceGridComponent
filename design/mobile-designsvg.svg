@@ -26,9 +26,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showguides="true"
-     inkscape:zoom="2.5241379"
-     inkscape:cx="162.03552"
-     inkscape:cy="354.77459"
+     inkscape:zoom="0.89241751"
+     inkscape:cx="162.48"
+     inkscape:cy="80.11945"
      inkscape:window-width="1366"
      inkscape:window-height="745"
      inkscape:window-x="-8"
@@ -41,7 +41,7 @@
        id="guide1"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="32.496,734.41324"
+       position="31.297815,58.63387"
        orientation="1,0"
        id="guide2"
        inkscape:locked="false" />
@@ -181,7 +181,7 @@
        id="guide29"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="171.93989,76.857923"
+       position="78.046449,75.669389"
        orientation="0,-1"
        id="guide30"
        inkscape:locked="false" />
@@ -194,6 +194,21 @@
        position="101.42077,104.19399"
        orientation="0,-1"
        id="guide32"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="242.03918,678.38565"
+       orientation="1,0"
+       id="guide33"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="115.28689,424.30327"
+       orientation="1,0"
+       id="guide34"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="124.39891,427.47267"
+       orientation="1,0"
+       id="guide35"
        inkscape:locked="false" />
   </sodipodi:namedview>
   <g
