@@ -16,6 +16,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 html {
   font-size: 16px;
@@ -103,7 +104,10 @@ main {
 .card:first-of-type .card-text {
   color: var(--Grayish-Blue);
 }
-
+.card:last-of-type .card-text {
+  display: flex;
+  flex-flow: column wrap;
+}
 .card-button {
   background-color: var(--Bright-Yellow);
   border: none;
@@ -111,4 +115,40 @@ main {
   padding: 1rem 0;
   font-size: 1rem;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.205);
+}
+@media (min-width: 768px) {
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main {
+    width: 40rem;
+  }
+  .card {
+    padding: 2.55rem;
+  }
+  .card:nth-of-type(2),
+  .card:nth-of-type(3) {
+    flex-basis: 50%;
+  }
+  .card:first-of-type .card-title {
+    font-size: 1.5rem;
+  }
+  .card:first-of-type .card-subtitle {
+    font-size: 1.15rem;
+  }
+  .card:first-of-type .card-text {
+    font-size: 1rem;
+  }
+  .card:nth-of-type(3) .card-text {
+    font-family: "karla-light", sans-serif;
+    line-height: 1.3625rem;
+  }
+  .card-subtitle,
+  .card-text,
+  .card-button {
+    margin-top: 1.25rem;
+  }
 }
