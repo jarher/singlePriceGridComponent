@@ -1,41 +1,3 @@
-@font-face {
-  font-family: "Karla";
-  src: url("./fonts/Karla-Regular.ttf");
-}
-@font-face {
-  font-family: "karla-light";
-  src: url("./fonts/Karla-Light.ttf");
-}
-:root {
-  --Cyan: hsl(179, 62%, 43%);
-  --Bright-Yellow: hsl(71, 73%, 54%);
-  --Light-Gray: hsl(204, 43%, 93%);
-  --Grayish-Blue: hsl(218, 22%, 67%);
-  --White: white;
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-html {
-  font-size: 16px;
-  font-family: "Karla", sans-serif;
-}
-body {
-  background-color: var(--Light-Gray);
-}
-main,
-.card-button {
-  border-radius: 0.3125rem;
-}
-main {
-  display: flex;
-  flex-flow: row wrap;
-  margin: 4.375rem 2rem;
-  overflow: hidden;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.105);
-}
 .card {
   flex-basis: 100%;
   padding: 1.875rem 1.5625rem;
@@ -111,21 +73,13 @@ main {
 .card-button {
   background-color: var(--Bright-Yellow);
   border: none;
+  border-radius: 0.3125rem;
   width: 100%;
   padding: 1rem 0;
   font-size: 1rem;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.205);
 }
 @media (min-width: 768px) {
-  body {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  main {
-    width: 40rem;
-  }
   .card {
     padding: 2.55rem;
   }

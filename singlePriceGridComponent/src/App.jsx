@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import CardComponent from "./CardComponent";
+import CardComponent from "./CardComponent/CardComponent";
 
-function App() {
+export default function App() {
   const [cardData, setCardData] = useState([]);
   try {
     useEffect(() => {
@@ -23,5 +23,3 @@ function App() {
     </>
   );
 }
-
-export default App;

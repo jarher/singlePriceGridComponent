@@ -8,14 +8,14 @@
     "title": "Monthly Subscription",
     "subtitle": {
       "children": [
-        { "type": "span", "content": "&dollar;29" },
+        { "type": "span", "content": "$29" },
         {
           "type": "sub",
           "content": "per month"
         }
       ]
     },
-    "text": "Full access for less than &dollar;1 a day",
+    "text": "Full access for less than $1 a day",
     "buttonText": "Sign Up"
   },
   {

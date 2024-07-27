@@ -9,30 +9,29 @@ import {
   CardFooter,
   Button,
 } from "@chakra-ui/react";
-import CreateTag from "./CreateTag";
+import CreateTag from "../CreateTag/CreateApp";
+import "./cardComponent.css";
 
 export default function CardComponent({ title, subtitle, text, buttonText }) {
   return (
     <>
-      <Card align="center">
+      <Card className="card">
         <CardHeader>
-          <Heading as="h1" size="md">
+          <Heading as="h1" className="card-title">
             {title}
           </Heading>
           {subtitle && (
-            <Heading as="h2" size="md">
+            <Heading as="h2" className="card-subtitle">
               {<CreateTag value={subtitle} />}
             </Heading>
           )}
         </CardHeader>
         <CardBody>
-          <Text>{<CreateTag value={text} />}</Text>
+          <Text className="card-text">{<CreateTag value={text} />}</Text>
         </CardBody>
         {buttonText && (
           <CardFooter>
-            <Button variant="solid" colorScheme="blue">
-              {buttonText}
-            </Button>
+            <Button className="card-button">{buttonText}</Button>
           </CardFooter>
         )}
       </Card>
