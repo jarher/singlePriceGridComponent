@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Join our community",
+    "subtitle": "30-day, hassle-free money back guarantee",
+    "text": "Gain access to our full library of tutorials along with expert code reviews. Perfect for any developers who are serious about honing their skills"
+  },
+  {
+    "title": "Monthly Subscription",
+    "subtitle": {
+      "children": [
+        { "type": "span", "content": "&dollar;29" },
+        {
+          "type": "sub",
+          "content": "per month"
+        }
+      ]
+    },
+    "text": "Full access for less than &dollar;1 a day",
+    "buttonText": "Sign Up"
+  },
+  {
+    "title": "Why Us",
+    "text": {
+      "children": [
+        {
+          "type": "span",
+          "content": "Tutorials by industry experts"
+        },
+        { "type": "span", "content": "Peer &amp; expert code review" },
+        { "type": "span", "content": "Coding exercises" },
+        { "type": "span", "content": "Access to our GitHub repos" },
+        { "type": "span", "content": "Community forum" },
+        { "type": "span", "content": "Flashcard decks" },
+        { "type": "span", "content": "New videos every week" }
+      ]
+    }
+  }
+]
