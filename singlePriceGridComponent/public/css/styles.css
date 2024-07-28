@@ -1,48 +1,10 @@
-@font-face {
-  font-family: "Karla";
-  src: url("./fonts/Karla-Regular.ttf");
-}
-@font-face {
-  font-family: "karla-light";
-  src: url("./fonts/Karla-Light.ttf");
-}
 :root {
   --Cyan: hsl(179, 62%, 43%);
   --Bright-Yellow: hsl(71, 73%, 54%);
-  --Light-Gray: hsl(204, 43%, 93%);
   --Grayish-Blue: hsl(218, 22%, 67%);
-  --White: white;
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-html {
-  font-size: 16px;
-  font-family: "Karla", sans-serif;
-}
-body {
-  background-color: var(--Light-Gray);
-}
-main {
-  border-radius: 0.3125rem;
-  display: flex;
-  flex-flow: row wrap;
-  border-radius: 0.3125rem;
-  margin: 4.375rem 2rem;
-  overflow: hidden;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.105);
-}
-
-@media (min-width: 768px) {
-  .container {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  main {
-    width: 40rem;
-  }
 }

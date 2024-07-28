@@ -1,5 +1,7 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-prototype-builtins */
+
+// create additional children html tags
 export default function CreateTag({ value }) {
   let content;
   if (value.hasOwnProperty("children")) {
