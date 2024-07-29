@@ -20,7 +20,9 @@ export default function App() {
   try {
     useEffect(() => {
       async function fetchData() {
-        const response = await fetch("data.json");
+        const response = await fetch(
+          "https://raw.githubusercontent.com/jarher/singlePriceGridComponent/main/singlePriceGridComponent/data.json"
+        );
         setCardData(await response.json());
       }
       fetchData();
