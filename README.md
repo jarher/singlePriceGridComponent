@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://your-solution-url.com]
+- Live Site URL: [https://your-live-site-url.com]
 
 ## My process
 
@@ -55,7 +55,7 @@ I want to continue improving my learning of React and Chakra, in terms of implem
 
 ### Useful resources
 
-- [Example resource 1](https://v2.chakra-ui.com/getting-started) - Chakra UI Documentation 
+- [https://v2.chakra-ui.com/getting-started] - Chakra UI Documentation 
 
 ## Author
 
