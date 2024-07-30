@@ -40,7 +40,6 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 - [Chakra UI](https://v2.chakra-ui.com/) - Modular and accessible React component library
